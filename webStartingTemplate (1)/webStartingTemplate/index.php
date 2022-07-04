@@ -14,7 +14,7 @@
 <body>
 	<!-- All our code. write here   -->
 	<div class="header">
-        <img src="zalda" alt="" height="50" width="50" class="rounded-circle">
+        <img src="images/zalda.jpg" alt="logo" height="50" width="50" class="rounded-circle">
         <a href="#" class="navbar-trigger"><span></span></a>
     </div>
 
@@ -22,7 +22,7 @@
     <nav>
         <ul>
            <li>
-               <a href="">
+               <a href="students.php">
                    <span> <i class="fa fa-group fa-3x"></i></span>
                    <span>Students</span>
                </a>
@@ -51,69 +51,74 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="card-header bg-dark text-white text-centre">
+                        <div class="card-header bg-dark text-white text-center">
                             <span>Topcontent</span>
                         </div>
                         <div class="card-body"></div>
-                        <div class=" card-rooter"></div>
+                        <div class=" card-footer"></div>
                     </div>
                         <div class="col-lg-3">
-                            <div class="card-header bg-dark text-white text-centre">
+                            <div class="card-header bg-dark text-white text-center">
                                 <span>Students</span>
                             </div>
-                            <div class="card-body"></div>
-                            <span><i class="fa fa-group fa-3x"></i></span>
-                            <span class="float-right">00</span>
+                            <div class="card-body">
+                                <span><i class="fa fa-group fa-3x"></i></span>
+                                <span class="float-right">00</span>
+                            </div>
+                            
                             <div class=" card-footer"></div>
                         </div>  
                          <div class="col-lg-3">
-                            <div class="card-header bg-dark text-white text-centre">
+                            <div class="card-header bg-dark text-white text-center">
                                 <span>Available courses</span>
                             </div>
-                            <div class="card-body"></div>
-                            <span><i class="fa fa-folder-open fa-3x"></i></span>
-                            <span class="float-right">00</span>
+                            <div class="card-body">
+                                <span><i class="fa fa-folder-open fa-3x"></i></span>
+                                <span class="float-right">00</span>
+                            </div>
+                            
                             <div class=" card-footer"></div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card-header bg-dark text-white text-centre">
+                            <div class="card-header bg-dark text-white text-center">
                                 <span>Campuses</span>
                             </div>
-                            <div class="card-body"></div>
-                            <span><i class="fa fa-graduation-cap fa-3x"></i></span>
-                            <span class="float-right">00</span>
-                            <div class=" card-rooter"></div>
+                            <div class="card-body">
+                                <span><i class="fa fa-graduation-cap fa-3x"></i></span>
+                                <span class="float-right">00</span>
+                            </div>
+                            
+                            <div class=" card-footer"></div>
                         </div>
                         <div class="col-lg-3">
-                            <div class="card-header bg-dark text-white text-centre">
+                            <div class="card-header bg-dark text-white text-center">
                                 <span>Top content</span>
                             </div>
-                            <div class="card-body"></div>
-                            <span><i class="fa fa-user fa-3x"></i></span>
+                            <div class="card-body">
+                                <span><i class="fa fa-user fa-3x"></i></span>
                             <span class="float-right">00</span>
-                            <div class=" card-rooter"></div>
+                            </div>
+                           
+                            <div class=" card-footer"></div>
                         </div>
 
-
                     	<div class="col-lg-12">
-                        	<div class="card-header bg-dark text-white text-centre">
+                        	<div class="card-header bg-dark text-white text-center">
 								<span>Students Analysis</span>
 							 </div>
-						 	<div class="card-body"></div>
-                            <span><i class="fa fa-line-chart fa-3x"></i></span>
-                            <span class="float-right">00</span>
-                        	<div class=" card-rooter"></div>
+						 	<div class="card-body">
+                                <span><i class="fa fa-line-chart fa-3x"></i></span>
+                            <span class="float-right"></span>
+                            </div>
+                           
+                        	<div class=" card-footer"></div>
 						</div>
                     </div>
                 </div>
             </div>
         </div>
 	
-    <script src="bootstrap/js/bootstrap.bundle.js"></script>
-
-    
-
-	
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
 <script src="jquery.min.js"></script>
 
 </body>
