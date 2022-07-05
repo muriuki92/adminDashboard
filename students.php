@@ -1,3 +1,15 @@
+<?php
+    $server="localhost";
+    $username="root";
+    $password="";
+    $database="zalego";
+
+    $conn = mysqli_connect($server,$username,$password,$database);
+
+    $sql =mysqli_query($conn, "SELECT * FROM contactus");
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,27 +85,30 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td>1</td>  
-                                <td>Sheila Muriuki</td>
-                                <td>+25422504053</td>
-                                <td>muriukisheila33@gmail.com</td>
-                                <td>Female</td>
-                                <td>Web Design & development</td>
-                                <td>20th Aug 2022</td>
+                            <?php while($fetchContactusRecord= mysqli_fetch_array($sql)) {?>
+                                <tr>
+                                <td><?php echo$fetchContactusRecord['no'] ?></td>  
+                                <td><?php echo$fetchContactusRecord['firstname'] ?></td>
+                                <td><?php echo$fetchContactusRecord['lastname'] ?></td>
+                                <td><?php echo$fetchContactusRecord['email'] ?></td>
+                                <td><<?php echo$fetchContactusRecord['phonenumber'] ?></td>
+                                <td><?php echo$fetchContactusRecord['message'] ?></td>
+                                <td><?php echo$fetchContactusRecord['created_at'] ?></td>
                                 <td>
-                                <a href="" class="btn btn-primary btn-sm">
-                                    <i class="fa fa-edit"></i>
-                                </a>
-                                <a href="" class="btn btn-info btn-sm">
-                                     <i class="fa fa-eye"></i>
-                                </a>
-                                <a href="" class="btn btn-danger btn-sm">
-                                    <i class="fa fa-trash"></i>
-                                </a>
+                                    <a href="" class="btn btn-primary btn-sm">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
+                                    <a href="" class="btn btn-info btn-sm">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                    <a href="" class="btn btn-danger btn-sm">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
                                 </td>
                             </tr>
-                    </table>   
+                            <?php }?>
+                        </tbody>
+                        </table>   
                     <div class=" card-footer"></div>
                 </div>
             </div>
