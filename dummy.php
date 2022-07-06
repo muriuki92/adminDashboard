@@ -11,3 +11,4 @@
         # code ....
         echo $fetchRecords['firstname']..$fetchRecords['lastname']..$fetchRecords['email']..$fetchRecords['phonenumber']..$fetchRecords['message']..$fetchRecords['created_at'].
     }
+    ?>
