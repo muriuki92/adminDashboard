@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+position: absolute;
+height: 400px;
+width: 100%;
+background-color: #ff4500;
+color:white;
+z-index: 7;
+}

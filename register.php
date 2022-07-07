@@ -51,9 +51,9 @@
 </div>            
 <!-- form input ends here -->
 
-<!-- <script src="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script> -->
-       <script src="bootstrap 5.2.0/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle..js"></script>
-       <script src="bootstrap 5.2.0/bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+<!-- script tags start here -->
+<?php require_once('includes/sripts.php') ?>
+<!-- script tags end here -->
 
 </body>
 </html>

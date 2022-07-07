@@ -81,6 +81,6 @@
             </div>
     </div>
 	
-    <?php require_once('includes/sripts.php') ?>
+    <?php require_once('includes/scripts.php') ?>
 </body>
 </html>

@@ -44,7 +44,7 @@
                             </thead>
                             <tbody>
                                 <?php while($fetchContactusRecord= mysqli_fetch_array($sql)) {?>
-                                    <tr>
+                                <tr>
                                     <td><?php echo$fetchContactusRecord['no'] ?></td>  
                                     <td><?php echo$fetchContactusRecord['firstname'] ?></td>
                                     <td><?php echo$fetchContactusRecord['lastname'] ?></td>
