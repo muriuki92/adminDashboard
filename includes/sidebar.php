@@ -1,11 +1,11 @@
 <nav>
         <ul>
             <li>
-                    <a href="index.php">
-                        <span> <i class="fa fa-home fa-3x"></i></span>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
+                <a href="index.php">
+                    <span> <i class="fa fa-home fa-3x"></i></span>
+                    <span>Dashboard</span>
+                </a>
+            </li>
 
            <li>
                <a href="students.php">
@@ -29,4 +29,4 @@
             </li>
 
         </ul>
-    </nav>
+</nav>

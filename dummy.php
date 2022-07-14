@@ -6,9 +6,10 @@
 
     $conn = mysqli_connect($server,$username,$password,$database);
 
-    $sql =mysqli_query($conn, "SELECT * FROM contactus");
-    while($fetchRecords = mysqli_fetch_array($sql)){
+    $sql =mysqli_query($conn, "SELECT * FROM enrollment");
+    while($fetchRecords = mysqli_fetch_array($sql))
+    {
         # code ....
-        echo $fetchRecords['firstname']..$fetchRecords['lastname']..$fetchRecords['email']..$fetchRecords['phonenumber']..$fetchRecords['message']..$fetchRecords['created_at'].
+        echo $fetchRecords['fullname']..$fetchRecords['email']..$fetchRecords['phonenumber']..$fetchRecords['gender']..$fetchRecords['course'].
     }
     ?>

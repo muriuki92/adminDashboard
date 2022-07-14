@@ -52,7 +52,7 @@
 <!-- form input ends here -->
 
 <!-- script tags start here -->
-<?php require_once('includes/sripts.php') ?>
+<?php require_once('includes/scripts.php') ?>
 <!-- script tags end here -->
 
 </body>
