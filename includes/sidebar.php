@@ -28,5 +28,12 @@
                 </a>
             </li>
 
+            <li>
+                <a href="contactus.php">
+                    <span> <i class="fa fa-envelope fa-3x"></i></span>
+                    <span>Messages</span>
+                </a>
+            </li>
+
         </ul>
 </nav>
